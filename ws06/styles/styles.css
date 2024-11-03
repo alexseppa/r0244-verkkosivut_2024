@@ -15,9 +15,33 @@ text-align: center;
 section{ background-color: aqua;
 }
 nav{ background-color: aquamarine;
+    }
+nav a:hover {
+    color: red;
 }
 body{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
+#vertical-nav {
+float: left;
+width: auto;
+height: 300px;
+background-color: aliceblue;
+padding: 20px;
+
+}
+#vertical-nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}    
+#vertical-nav a:hover{
+    background-color: red;
+}
+section {
+clear: both;
+}
+
